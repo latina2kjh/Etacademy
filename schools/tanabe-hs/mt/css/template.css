@@ -1,0 +1,427 @@
+@charset "UTF-8";
+/****************************************
+	IMG
+*****************************************/
+.YOKO {
+  padding: 0px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+*:focus {
+  outline: none;
+}	
+
+.img_box {
+  display: block;
+  overflow: hidden;
+  height: 120px;
+  margin: 0 0 20px 0;
+}
+
+.img_box img {
+ 	border-style:none;
+	border:#FFFFFF solid 0px;	
+	}
+
+.img_box img:focus {
+  outline: none;
+}	
+
+.img_box2 {
+  display: block;
+  height: 150px;
+  overflow: hidden;
+  margin: 0 0 20px 0;
+}
+
+.img_box2 img {
+ 	border-style:none;
+	border:#FFFFFF solid 0px;	
+	}
+.img_box2 img:focus {
+  outline: none;
+  border-style:none;
+}	
+
+.img_box3 {
+  display: block;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 0 20px 0;
+}
+
+.img_box3 img {
+ 	border-style:none;
+	border:#FFFFFF solid 0px;	
+	}
+.img_box3 img:focus {
+  outline: none;
+}
+.nonmover {
+ 	border-style:none
+}
+/****************************************
+	AUDIO
+*****************************************/
+.audio {
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.audio-title {
+  text-align: left;
+  width: 350px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.audio-inner {
+  display: inline;
+  height: 20px;
+  width: 350px;
+  text-align: left;
+}
+
+.small_devices {
+  background-color: #FFFDFF;
+  text-align: left;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 1px solid #FF99FF;
+}
+
+/****************************************
+	MP4
+*****************************************/
+.kizi-mp4 {
+  padding: 0px;
+  float: left;
+  height: 320px;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/****************************************
+	PDF
+*****************************************/
+.pdf-span,
+.pdf-span a {
+  font-size: 12px;
+  color: #666666;
+}
+
+.admissions3 {
+  text-align: left;
+  display: block;
+  position: relative;
+  z-index: 4;
+}
+
+.admissions3 img {
+  margin: 10px;
+}
+
+.pdf_link {
+  display: block;
+  text-align: center;
+  padding: 5px 20px;
+  margin: 8px 0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  z-index: 20;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;
+  background-color: #9AC1FC;
+}
+
+.pdf_text_sp a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.pdf_text_sp a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.pdf_text_sp a:hover {
+  color: #0000FF;
+  text-decoration: none;
+}
+
+.pdf_text_sp a:active {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.pdf_text_sp {
+  display: block;
+  padding: 10px;
+  margin: 20px 0 5px 0;
+  background-color: #FAFAFA;
+}
+.pdf_object {
+	z-index:1;
+	}
+.aka {
+  color: #FF6600;
+}
+
+/****************************************
+	PAN LIST
+*****************************************/
+#archive-link {
+  text-align: center;
+  display: block;
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px 0 40px 0;
+  border-top:#CCCCCC solid 1px;
+}
+
+.Entry_link {
+ 
+  text-align: center;
+  display: block;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+ 
+}
+
+#psn-list-conntent {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:35px;
+  padding-left:15px;
+  display: block;
+ }
+
+#psn-list-conntent-inner {
+  padding: 0px;
+  height: 18px;
+  text-align: left;
+  display: block;
+}
+
+.pan-list ul {
+  list-style-type: none;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.pan-list li {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.pan-list li a {
+  color: #009900;
+}
+
+.pan-list li a:hover {
+  color: #006633;
+}
+
+
+/****************************************
+	TOOLTIP
+*****************************************/
+a.tooltip2:hover {
+  background: #ffffff;
+  /* IE6以下で必要 */
+  text-decoration: none;
+}
+
+a.tooltip2 span {
+  display: none;
+  padding: 8px;
+  font-size: 12px;
+  margin-left: 4px;
+  line-height: 1.6;
+  margin-top: 4px;
+}
+
+a.tooltip2:hover span {
+  display: inline;
+  position: absolute;
+  background-color: #FFFFFF;
+  border: 1px solid #666666;
+  color: #0066FF;
+  width: 160px;
+  /* a.tooltip spanに指定すると、IE6以下でspanの領域でマウスが反応してしまう */
+}
+
+/* IE6以下にのみ適用 */
+a.tooltip2:hover span {
+  width: 160px;
+}
+
+a.tooltip2:hover {
+  background: #ffffff;
+  /* IE6以下で必要 */
+  text-decoration: none;
+}
+
+a.tooltip3 span {
+  display: none;
+  padding: 8px;
+  font-size: 12px;
+  margin-left: 4px;
+  line-height: 1.6;
+  margin-top: 4px;
+}
+
+a.tooltip3:hover span {
+  display: inline;
+  position: absolute;
+  background-color: #FFFFFF;
+  border: 1px solid #666666;
+  color: #0066FF;
+  width: 200px;
+  /* a.tooltip spanに指定すると、IE6以下でspanの領域でマウスが反応してしまう */
+}
+
+/* IE6以下にのみ適用 */
+a.tooltip3:hover span {
+  width: 200px;
+}
+
+/****************************************
+  PAGE BETU
+*****************************************/
+.pagenate {
+  text-align: center;
+  /*height: 15px;*/
+  margin-bottom: 30px;
+  width: 90%;
+  margin-top: 15px;
+  display: block;
+  font-size: 14px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pagenate ul {
+  padding: 5px;
+  text-align: center;
+}
+
+.pagenate li {
+  display: inline;
+  padding: 0;
+  /*background-color: #FFFFFF;*/
+  margin-bottom: 10px;
+}
+
+.pagenate li span,
+.pagenate li a {
+  display: inline-block;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  text-decoration: none;
+  vertical-align: middle;
+  color: #FFFFFF;
+  background-color: #009900;
+  padding-top: 2px;
+  padding-right: 6px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+}
+
+.pagenate li span {
+  font-weight: bold;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.pagenate li a:hover {
+  color: #FFFFFF;
+  background-color: #00CC33;
+}
+
+/****************************************
+	TOP NAV
+*****************************************/
+#top-navi {
+  display: none;
+  position: fixed;
+  z-index: 30;
+  bottom: 10px;
+  right: 10px;
+  color: #FFFFFF;
+}
+
+.glyphicon-circle-arrow-up {
+  color: #FFFFFF;
+}
+
+#top-navi span {
+  margin-top: 4px;
+}
+
+/****************************************
+	resizeimage
+*****************************************/
+p.resizeimage {
+  max-width: 600px;
+  /* 最大幅 */
+  min-width: 300px;
+  /* 最小幅 */
+}
+
+p.resizeimage img {
+  width: 100%;
+}
+
+p.resizeimage2 {
+  min-width: 200px;
+  /* 最小幅 */
+}
+
+p.resizeimage2 img {
+  width: 50%;
+}
+
+p.resizeimage3 {
+  min-width: 100px;
+  /* 最小幅 */
+}
+
+p.resizeimage3 img {
+  width: 50%;
+}
+
+/****************************************
+	NST
+*****************************************/
+#nst {
+  font-size: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  position: fixed;
+  bottom: -5000px;
+}
+
+/*# sourceMappingURL=template.css.map */
